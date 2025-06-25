@@ -1,26 +1,22 @@
 name: hama
 description: A Flutter project for booking rooms with Firebase Auth and Firestore.
-publish_to: 'none' # Prevent accidental publishing
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.7.2 <4.0.0'
+  sdk: ">=3.7.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # UI Icons
   cupertino_icons: ^1.0.8
-
-  # Firebase packages
-  firebase_core: ^2.32.0
-  firebase_auth: ^4.17.4
-  cloud_firestore: ^4.17.5
-
-  # State Management & Util
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
   provider: ^6.1.2
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
@@ -29,7 +25,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Assets (opsional, bisa tambahkan gambar/icon di sini)
-  # assets:
-  #   - assets/images/
+  assets:
+    - assets/images/logo.png
