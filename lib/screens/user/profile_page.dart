@@ -26,7 +26,7 @@ class ProfilePage extends StatelessWidget {
           ),
     );
 
-    if (shouldLogout == true) {
+  if (shouldLogout == true) {
       await FirebaseAuth.instance.signOut();
       if (context.mounted) {
         Navigator.pushReplacementNamed(context, '/');
