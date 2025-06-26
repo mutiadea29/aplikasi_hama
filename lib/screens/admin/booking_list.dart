@@ -93,7 +93,7 @@ class _BookingListState extends State<BookingList> {
                             Text('Status: ${data['status']}'),
                           ],
                         ),
-                        trailing: PopupMenuButton<String>(
+                         trailing: PopupMenuButton<String>(
                           onSelected: (value) => updateStatus(id, value),
                           itemBuilder:
                               (context) => [
