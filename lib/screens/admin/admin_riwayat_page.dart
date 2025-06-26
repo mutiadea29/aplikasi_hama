@@ -9,7 +9,7 @@ class AdminRiwayatPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Riwayat Booking')),
       body: StreamBuilder<QuerySnapshot>(
-        stream:
+        stream: 
             FirebaseFirestore.instance
                 .collection('booking')
                 .orderBy('tanggal', descending: true)
