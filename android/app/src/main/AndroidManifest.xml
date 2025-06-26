@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hama">
+    package="com.new.packagename">
     <application
         android:label="hama"
         android:name="${applicationName}"
