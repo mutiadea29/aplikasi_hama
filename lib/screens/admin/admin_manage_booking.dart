@@ -11,7 +11,7 @@ class AdminManageBookingPage extends StatefulWidget {
 class _AdminManageBookingPageState extends State<AdminManageBookingPage> {
   String _selectedStatus = 'Semua';
 
-  final List<String> _statusList = [
+  final List<String> _statusList = [ 
     'Semua',
     'menunggu',
     'disetujui',
