@@ -65,6 +65,7 @@ class ProfilePage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 10),
+                    
                     Card(
                       elevation: 2,
                       shape: RoundedRectangleBorder(
