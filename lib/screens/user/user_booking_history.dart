@@ -43,6 +43,7 @@ class UserBookingHistory extends StatelessWidget {
                   subtitle: Text('${booking['tanggal']} • ${booking['waktu']}'),
                   trailing: Text(
                     booking['status'],
+                    
                     style: TextStyle(
                       color:
                           booking['status'] == 'disetujui'
